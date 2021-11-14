@@ -25,11 +25,14 @@ The product could be a replacement for the existing system where an individual n
 
 4- Commands:
 
-   py -m venv venv
-   venv\Scripts\activate
-   pip install -r requirements.txt
-   py manage.py runserver
-
+    (i)-   py -m venv venv
+   
+    (ii)-  venv\Scripts\activate
+   
+    (iii)- pip install -r requirements.txt
+   
+    (iv)-  py manage.py runserver
+   
 In core /settings.py the stripe is commented out - just put your own details in here (not all of these are connected to the project)
 
 #### Stripe Payment :
@@ -41,5 +44,7 @@ PUBLISHABLE_KEY = '' SECRET_KEY = ''
 http://127.0.0.1:8000/admin
 
 username and password = admin
+
+
 
 
